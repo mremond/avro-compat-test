@@ -1,0 +1,20 @@
+{
+  "namespace" : "net.example",
+  "name" : "schema1",
+  "type" : "record",
+  "fields" : [
+    {
+      "name" : "requestId",
+      "type" : [ "null" , "string"],
+      "default" : null
+    },
+    {
+      "name" : "productId",
+      "type" : "int"
+    },
+    {
+      "name" : "productName",
+      "type" : "string"
+    }
+  ]
+}
